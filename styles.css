@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(216, 216, 216);
+    width: 434px;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: green;*/
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    width: 381px;
+    height: 45vh;
+}
+
+.devInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 85px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutmore{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 12px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(15, 134, 238);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+
+
+/*contact form*/
+
